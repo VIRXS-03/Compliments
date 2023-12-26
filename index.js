@@ -19,7 +19,7 @@ publishBtnEl.addEventListener("click", function() {
     let inputValueTo = inputTo.value
     
     if(inputFrom.value && inputTo.value  &&inputValue){
-    push(endorsementListInDB, `From:${inputFrom.value}\n ${inputValue}\n To:${inputTo.value}`)
+    push(endorsementListInDB, `From:${inputFrom.value}\n\n ${inputValue}\n\n To:${inputTo.value}`)
     
     clearInputFieldEl()
     clearInputFrom()
